@@ -72,3 +72,8 @@ sceneform.asset('sampledata/models/dinosaur.obj',
         'default',
         'sampledata/models/dinosaur.sfa',
         'src/main/assets/dinosaur')
+
+sceneform.asset('sampledata/models/heart.obj',
+        'default',
+        'sampledata/models/heart.sfa',
+        'src/main/assets/heart')

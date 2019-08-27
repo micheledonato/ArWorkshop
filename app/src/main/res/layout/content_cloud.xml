@@ -4,27 +4,27 @@
     android:layout_height="match_parent">
 
     <fragment
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
         android:id="@+id/fragment"
-        android:name="com.nytimes.android.ramonaharrison.CloudArFragment" />
+        android:name="com.nytimes.android.ramonaharrison.CloudArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
     <LinearLayout
-        android:layout_marginTop="60dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="60dp">
 
         <Button
             android:id="@+id/clear_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Clear"/>
+            android:text="Clear" />
 
         <Button
             android:id="@+id/resolve_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Resolve"/>
+            android:text="Resolve" />
 
     </LinearLayout>
 

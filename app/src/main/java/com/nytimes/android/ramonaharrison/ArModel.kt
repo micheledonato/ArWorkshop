@@ -8,7 +8,8 @@ enum class ArModel {
     PASTA,
     PIZZA,
     TIRAMISU,
-    DINOSAUR;
+    DINOSAUR,
+    HEART;
 
     fun getUri(): Uri {
         return Uri.parse("${this.name.toLowerCase()}.sfb")
@@ -22,6 +23,7 @@ enum class ArModel {
             PIZZA -> R.drawable.thumb_pizza
             TIRAMISU -> R.drawable.thumb_tiramisu
             DINOSAUR -> R.drawable.thumb_dinosaur
+            HEART -> R.drawable.thumb_heart
         }
     }
 }

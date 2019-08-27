@@ -5,6 +5,8 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera.ar" android:required="true" />
 
     <application
             android:allowBackup="true"
@@ -21,6 +23,8 @@
         </activity>
 
         <meta-data android:name="com.google.android.ar.API_KEY" android:value="AIzaSyDtKHgC-rDcARo984r1I7HgBLzu4cErgVI"/>
+
+        <meta-data android:name="com.google.ar.core" android:value="required" />
 
         <provider
                 android:name="androidx.core.content.FileProvider"
